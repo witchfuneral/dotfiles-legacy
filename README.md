@@ -1,5 +1,7 @@
 <h1 align="center">dotfiles</h1>
 
+![screenshot](https://raw.githubusercontent.com/dyingwillow/dotfiles/main/assets/dotfiles.png)
+
 - distro: [arch linux](https://archlinux.org/)
 - window manager: [swayfx](https://github.com/WillPower3309/swayfx)
 - top bar: [waybar](https://github.com/Alexays/Waybar)
@@ -31,7 +33,7 @@
 
 # Installation
 
-after installing the dependencies and the optional programs, just copy everything in the repo to the ~/.config directory.
+after installing the dependencies and the optional programs, just copy everything in the dotfiles folder to the ~/.config directory.
 
 ```
 $ git clone https://github.com/dyingwillow/dotfiles
