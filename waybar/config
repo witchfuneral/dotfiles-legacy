@@ -1,0 +1,56 @@
+{
+    "layer": "top",
+    "modules-left": ["custom/separator", "sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["tray", "custom/separator", "network", "custom/separator", "pulseaudio", "custom/separator", "bluetooth", "custom/separator", "clock", "custom/separator"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "custom/separator": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+    },
+    "bluetooth": {
+      "format": "<span color='#b4befe'></span> {status}",
+      "format-disabled": "", // an empty format will hide the module
+      "format-connected": "<span color='#b4befe'></span> {num_connections}",
+      "tooltip-format": "{device_enumerate}",
+      "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
+    },
+    "pulseaudio": {
+      "format": "<span color='#b4befe'>{icon}</span>  {volume}%",
+      "format-muted": "",
+      "tooltip": false,
+      "format-icons": {
+        "headphone": "",
+        "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
+     }
+    },
+    "network": {
+        "interface": "enp5s0",
+        "format": "{ifname}",
+        "format-wifi": "󰤨",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤫",
+        "tooltip": false,
+      },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "tray": {
+    "spacing": 14
+    },
+"sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": false,
+    "format": "{icon}",
+    "format-icons": {
+        "1": "󰣇"
+    }
+}
+}
