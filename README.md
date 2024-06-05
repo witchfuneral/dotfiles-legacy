@@ -26,6 +26,7 @@
 - pcmanfm-gtk3
 - polkit-gnome
 - xdg-desktop-portal & xdg-desktop-portal-wlr
+- gnome-keyring
 
 # Optional
 - [feishin-bin](https://aur.archlinux.org/packages/feishin-bin)
