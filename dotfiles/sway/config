@@ -2,6 +2,8 @@
 
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
 # adjust for your display.
 
 ## personal note: uncomment if running on my desktop monitor
@@ -144,6 +146,12 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+
+# move to scratchpad
+bindsym $mod+Shift+h move scratchpad
+
+# show scratchpad
+bindsym $mod++minus scratchpad show
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
