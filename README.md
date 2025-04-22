@@ -1,6 +1,6 @@
 # WARNING! I NO LONGER USE THESE DOTFILES.
-# UP TO DATE REPO: [here](https://github.com/witchfuneral/dotfiles)
-# THIS REPO STILL EXISTS FOR ARCHIVAL PURPOSES.
+## UP TO DATE REPO: [here](https://github.com/witchfuneral/dotfiles)
+THIS REPO STILL EXISTS FOR ARCHIVAL PURPOSES.
 
 <h1 align="center">dotfiles</h1>
 
